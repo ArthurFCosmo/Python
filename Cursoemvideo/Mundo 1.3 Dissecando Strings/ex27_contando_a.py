@@ -1,0 +1,5 @@
+frase = str(input('Digite uma frase: ')).strip().lower()
+letra = str(input('Digite a letra a ser pesquisada: ')).strip().lower()
+print(f'Sua frase tem {frase.count(letra)} letras "{letra}"')
+print(f'A letra "{letra}" aparece a primeira vez em sua frase na posição: {frase.find(letra)}')
+print(f'A letra "{letra}" aparece a última vez em sua frase na posição: {frase.rfind(letra)}')

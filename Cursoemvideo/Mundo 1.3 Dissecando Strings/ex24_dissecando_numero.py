@@ -1,0 +1,5 @@
+numero = input('Digite um número de 4 dígitos: ')
+print('Primeiro dígito:', numero[0])
+print('Segundo dígito:', numero[1])
+print('Terceiro dígito:', numero[2])
+print('Quarto dígito:', numero[3])

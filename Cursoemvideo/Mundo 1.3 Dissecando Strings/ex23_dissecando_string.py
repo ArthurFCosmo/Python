@@ -1,0 +1,6 @@
+frase = str(input('Digite seu nome completo: ')).strip()
+print(frase.upper())
+print(frase.lower())
+print(f'Seu nome completo tem {(len(frase)) - (frase.count(" "))} letras')
+dividido = frase.split()
+print(f'Seu primeiro nome tem {len(dividido[0])} letras')
